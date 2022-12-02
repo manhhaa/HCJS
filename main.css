@@ -3,3 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    background-image: url("https://images.pexels.com/photos/108941/pexels-photo-108941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.weather {
+    width: 20%;
+    margin: 30px;
+    height: 180px;
+    background-color: #436f84;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.icon {
+    align-items: center;
+    padding-left: 60px;
+}
+
+.date {
+    padding-top:10px;
+}
+
+.temp {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cloud {
+    font-size: 14px;
+}
