@@ -6,7 +6,7 @@ http.onload = function (){
     let list = date.list;
     let arr = list.map((weather,index)=>{
         return `<div class="weather">
-                    <div class="date">${weather.[dt_txt]}</div>
+                    <div class="date">${weather.dt_txt}</div>
                     <div class="list">
                         <div>
                             <div class="temp">${weather.main.temp}℃</div>
