@@ -76,6 +76,7 @@ body {
     outline: none !important;
     background-color: #dfdfdf;
     border: none;
+    padding-left: 40px;
 }
 
 .form-login-input .set-row input:focus {
