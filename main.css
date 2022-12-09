@@ -93,6 +93,9 @@ body {
     align-items: center;
     font-size: 20px;
 }
+.form-login-input .set-row label i {
+    font-size: 25px;
+}
 
 .form-check-input {
     border-radius: 0 !important;
